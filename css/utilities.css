@@ -4,7 +4,6 @@
     --dark-grey: #333;
     --medium-grey: rgb(130, 139, 141);
     --standard-blue:#1B75D0;
-
 }
 
 /* Base Styles */
@@ -13,10 +12,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 .container {
-    max-width: 2000px;
+    max-width: 2600px;
     margin: 0 auto;
     overflow: auto;
     padding: 0 40xp;
