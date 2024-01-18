@@ -16,7 +16,7 @@
 }
 
 .container {
-    max-width: 2600px;
+    max-width: 100%;
     margin: 0 auto;
     overflow: auto;
     padding: 0 40xp;
@@ -27,6 +27,18 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.title-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+
 }
 
 .btn {
@@ -63,6 +75,12 @@ img {
 }
 
 /* Text Related */
+.text-title {
+    font-size: 2.5rem;
+    color: var(--dark-grey);
+    display: inline;
+}
+
 .lead {
     font-size: 20px;
 }
@@ -120,6 +138,22 @@ img {
 }
 .m-5 {
     margin: 3rem;
+}
+
+.me-1 {
+    margin-right: 1rem;
+}
+.me-2 {
+    margin-right: 1.5rem;
+}
+.me-3 {
+    margin-right: 2rem;
+}
+.me-4 {
+    margin-right: 2.5rem;
+}
+.me-5 {
+    margin-right: 3rem;
 }
 /* Padding  */
 .py-1 {

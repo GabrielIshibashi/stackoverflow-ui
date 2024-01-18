@@ -13,6 +13,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
+    padding-top: 60px;
 }
 
 /* Navigation Bar */
@@ -28,13 +29,9 @@ nav {
     align-items: center;
     background-color: #FFF;
     border-bottom: 1px solid var(--light-grey);
+    z-index: 999;
 }
 
-.border {
-    width: 100%;
-    border-bottom: 1px solid var(--light-grey);
-    margin-top: 10px;
-}
 
 nav .container {
     max-width: 2000px;
@@ -80,4 +77,18 @@ nav .flex {
 
 .box {
     height: 1000px;
+}
+
+/* Question Section */
+.aside {
+    background-color: #9a9ea2;
+}
+
+.question-date {
+    border-bottom: 1px solid var(--light-grey);
+    padding-bottom: 20px;
+}
+
+.question-container {
+    margin: 20px;
 }
