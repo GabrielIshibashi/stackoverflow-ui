@@ -16,6 +16,10 @@ body {
     padding-top: 60px;
 }
 
+p {
+    line-height: 1.8rem;
+}
+
 /* Navigation Bar */
 nav {
     border-top: 4px solid var(--primary-orange);
@@ -91,4 +95,28 @@ nav .flex {
 
 .question-container {
     margin: 20px;
+}
+
+.upvote-downvote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 60px;
+}
+
+.circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #C8CCD0; /* Set your desired border color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem; /* Set your desired icon size */
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: var(--dark-grey);
 }

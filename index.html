@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-css.min.js"></script>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -42,9 +47,31 @@
                     <span class="sm text-light-grey">Modified </span> <span class="sm me-1">8 years , 7months ago</span>
                     <span class="sm text-light-grey">Viewed </span> <span class="sm">1k times</span>
                 </div>
+                <div class="d-flex my-3">
+                    <div class="upvote-downvote me-2">
+                        <div class="circle">
+                            <i class="fa-solid fa-arrow-up "></i>
+                        </div>
+                        <span class="bold md">-3</span>
+                        <div class="circle">
+                            <i class="fa-solid fa-arrow-down "></i>
+                        </div>
+                    </div>
+    
+                    <div class="question-textbox">
+                        <p class="sm">I want to align my div i tried <code>text-align: center</code> but it doesn't work, pls help.</p>
+                        <p class="bold">here is my code:</p>
 
+                        <pre>
+                            <code class="language-html">
+&lt;div class="text-align:center"&gt;
+    &lt;span&gt;Hello World"&lt;/span&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
             </div>
-
         </div>
     </main>
     <script src="js/main.js"></script>
