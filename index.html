@@ -60,7 +60,7 @@
     
                     <div class="question-textbox">
                         <p class="sm">I want to align my div i tried <code>text-align: center</code> but it doesn't work, pls help.</p>
-                        <p class="bold">here is my code:</p>
+                        <p class="bold sm">here is my code:</p>
 
                         <pre>
                             <code class="language-html">
@@ -74,6 +74,64 @@
             </div>
         </div>
     </main>
+    <div class="answer-section">
+        <div class="question-container">
+            <div class="answer-title my-4">
+                <h2 class="">3 Answers</h2>
+                <div>
+                    <span class="sm text-dark-grey">sorted by:</span>
+                    <select name="sort" id="sortby" class="sort-box">
+                        <option value="highest-score">Highest Score (default)</option>
+                        <option value="trending">Trending</option>
+                        <option value="data-modified">Data Modified</option>
+                        <option value="data-created">Data Created</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="d-flex my-3">
+                <div class="upvote-downvote me-2">
+                    <div class="circle">
+                        <i class="fa-solid fa-arrow-up "></i>
+                    </div>
+                    <span class="bold md">60</span>
+                    <div class="circle">
+                        <i class="fa-solid fa-arrow-down "></i>
+                    </div>
+                    <i class="fa-solid fa-check" style="color: #63E6BE;"></i>
+                </div>
+
+                <div class="question-textbox">
+                    <p class="sm">Your not calling the class, substitute the value for center, and use this code snippet:</p>
+                    <pre>
+                        <code class="language-css">
+.center{
+    text-align:center;
+    align-items:center;
+    align-self:center;
+    align-content:center;
+    justify-items:center;
+    justify-self:center;
+    justify-content:center;
+    place-items:center;
+    vertical-align:center;
+    line-height: 100%;
+    margin:auto;
+    position:absolute;
+    left:50%;
+    right:50%;
+    transform:translate:(-50%, -%50);
+}
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+
+  
+
+
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>

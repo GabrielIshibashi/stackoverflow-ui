@@ -2,6 +2,7 @@
     --primary-orange: #E56F0D;
     --light-grey: #C8CCD0;
     --dark-grey: #333;
+    --darkish-grey: #292727;
     --medium-grey: rgb(130, 139, 141);
     --standard-blue:#1B75D0;
 }
@@ -119,4 +120,23 @@ nav .flex {
 
 .fa-solid {
     color: var(--dark-grey);
+}
+
+/* Answers */
+.answer-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.sort-box {
+    height: 35px;
+    width: 220px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.fa-check {
+    font-size: 3rem;
 }

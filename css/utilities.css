@@ -2,6 +2,7 @@
     --primary-orange: #E56F0D;
     --light-grey: #C8CCD0;
     --dark-grey: #333;
+    --darkish-grey: #292727;
     --medium-grey: rgb(130, 139, 141);
     --standard-blue:#1B75D0;
 }
@@ -14,10 +15,6 @@
     margin: 0;
     
 }
-
-pre {
-}
-
 
 .container {
     max-width: 100%;
@@ -115,6 +112,12 @@ img {
 .text-light-grey {
     color: var(--medium-grey);
 }
+
+.text-dark-grey {
+    color: var(--darkish-grey);
+}
+
+/* text-medium-grey */
 
 .text-center {
     text-align: center;
